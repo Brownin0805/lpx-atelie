@@ -1,0 +1,160 @@
+body {
+    background-color: rgb(216, 216, 216);
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:transparent;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav img {
+    float: left;
+}
+
+.topnav a:hover {
+  background-color: red;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: red;
+  color: white;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.container{
+    float: center;
+}
+
+/*rodapé*/
+
+footer {
+    position: center;
+    text-align: center;
+    padding: 3px;
+    color: black;
+  }
+
+/*texto aba sobre*/
+
+.titulo {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-color: transparent;
+    border-top-width: 150px;
+    border-left-width: 400px;
+    border-right-width: 100px;
+    border-bottom-width: 100px;
+}
+
+.texto {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/*Curriculo*/
+
+.curriculo{
+    padding: 1em 0;
+    float: left;
+    width: 50%;
+}
+  
+.curriculo .title{
+    color: #1a1a1a;
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+.content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+  
+.content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+  
+.content:hover .content-overlay{
+    opacity: 1;
+}
+  
+.content-image{
+    width: 100%;
+}
+  
+.content-details {
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+  
+.content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+}
+  
+.content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+  
+.content-details p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+}
+  
+.fadeIn-top{
+    top: 20%;
+}
